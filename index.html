@@ -309,6 +309,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
+    <li><a href="#dashboards">Dashboards</a></li>
     <li><a href="#certifications">Certifications</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -551,6 +552,65 @@
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- DASHBOARDS -->
+<section id="dashboards" style="background:#f8fafc;padding:80px 5%;">
+  <div class="section-header">
+    <div class="section-tag">Portfolio Work</div>
+    <h2>Analytics Dashboard — ProcureHere Buyers</h2>
+    <p>Interactive Power BI dashboard built for ProcureHere eProcurement platform buyers, featuring <strong>Row-Level Security (RLS)</strong> — each logged-in buyer sees only their own procurement data, delivering secure and personalised analytics across event performance, award stats, supplier involvement, and cycle time insights.</p>
+  </div>
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:24px;">
+      <div style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08);border:1px solid #e2e8f0;">
+        <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:12px 18px;display:flex;align-items:center;gap:10px;">
+          <i class="fas fa-chart-bar" style="color:#38bdf8;"></i>
+          <span style="color:#fff;font-weight:600;font-size:0.9rem;">Overview — RFX Event Analytics 2025</span>
+        </div>
+        <img src="assets/dashboard-overview.png" alt="RFX Event Analytics Overview" style="width:100%;display:block;" loading="lazy">
+        <div style="padding:14px 18px;font-size:0.82rem;color:#475569;">KPI summary: total events, completion rate, active suppliers, user count. Event status breakdown and type distribution charts (RFQ, RFA, RFT, RFI, RFP).</div>
+      </div>
+      <div style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08);border:1px solid #e2e8f0;">
+        <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:12px 18px;display:flex;align-items:center;gap:10px;">
+          <i class="fas fa-trophy" style="color:#38bdf8;"></i>
+          <span style="color:#fff;font-weight:600;font-size:0.9rem;">Award Stats — Budget & Savings Analysis</span>
+        </div>
+        <img src="assets/dashboard-award-stats.png" alt="Award Stats Dashboard" style="width:100%;display:block;" loading="lazy">
+        <div style="padding:14px 18px;font-size:0.82rem;color:#475569;">Budgeted vs awarded amounts, winning amount, total savings by winning and awarded price, with events award status pie chart.</div>
+      </div>
+      <div style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08);border:1px solid #e2e8f0;">
+        <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:12px 18px;display:flex;align-items:center;gap:10px;">
+          <i class="fas fa-chart-line" style="color:#38bdf8;"></i>
+          <span style="color:#fff;font-weight:600;font-size:0.9rem;">RFX Event Trend — Type & Status Matrix</span>
+        </div>
+        <img src="assets/dashboard-rfx-trend.png" alt="RFX Event Trend Dashboard" style="width:100%;display:block;" loading="lazy">
+        <div style="padding:14px 18px;font-size:0.82rem;color:#475569;">Cross-tabulation of event types vs statuses and a time-series line chart showing events created by date — revealing procurement activity trends over time.</div>
+      </div>
+      <div style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08);border:1px solid #e2e8f0;">
+        <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:12px 18px;display:flex;align-items:center;gap:10px;">
+          <i class="fas fa-clock" style="color:#38bdf8;"></i>
+          <span style="color:#fff;font-weight:600;font-size:0.9rem;">Event Duration & Cycle Time Analysis</span>
+        </div>
+        <img src="assets/dashboard-duration.png" alt="Event Duration Dashboard" style="width:100%;display:block;" loading="lazy">
+        <div style="padding:14px 18px;font-size:0.82rem;color:#475569;">Average event duration and cycle time by event type with drill-through tables for individual event timelines and approver count analysis.</div>
+      </div>
+      <div style="background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08);border:1px solid #e2e8f0;grid-column:1/-1;">
+        <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:12px 18px;display:flex;align-items:center;gap:10px;">
+          <i class="fas fa-sitemap" style="color:#38bdf8;"></i>
+          <span style="color:#fff;font-weight:600;font-size:0.9rem;">Event Distribution — Sankey Flow & Cycle Time vs Approvers</span>
+        </div>
+        <img src="assets/dashboard-distribution.png" alt="Event Distribution Dashboard" style="width:100%;display:block;" loading="lazy">
+        <div style="padding:14px 18px;font-size:0.82rem;color:#475569;">Sankey flow: total events → type → status → award status. Bar chart correlating average cycle time with number of approvers per event.</div>
+      </div>
+    </div>
+    <div style="margin-top:20px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;padding:16px 20px;display:flex;align-items:flex-start;gap:12px;">
+      <i class="fas fa-shield-alt" style="color:#2563eb;margin-top:2px;font-size:1.1rem;"></i>
+      <div style="font-size:0.85rem;color:#1e40af;line-height:1.6;">
+        <strong>Row-Level Security (RLS) Implemented:</strong> Each buyer logs in and sees only their own procurement data. RLS roles configured in Power BI automatically filter data based on the authenticated user — ensuring complete data privacy and security across all buyer organisations.
+      </div>
+    </div>
   </div>
 </section>
 
